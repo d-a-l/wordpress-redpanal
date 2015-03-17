@@ -2,5 +2,13 @@ wp-config.php
 *.tar.gz
 *.zip
 
-# ignorar tema de redpanal que tiene su propio repo
-wp-content/themes/redpan*/
+# ver -> https://gist.github.com/salcode/9940509
+wp-content/*
+!wp-content/index.php
+!wp-content/plugins/
+!wp-content/mu-plugins/
+!wp-content/languages/
+!wp-content/themes/index.php
+!wp-content/themes/twentyfifteen/
+!wp-content/themes/twentyfourteen/
+!wp-content/themes/twentythirteen/

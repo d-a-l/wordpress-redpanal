@@ -1,4 +1,6 @@
 wp-config.php
-
 *.tar.gz
 *.zip
+
+# ignorar tema de redpanal que tiene su propio repo
+wp-content/themes/redpanal*/
